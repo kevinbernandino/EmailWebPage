@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'internship3';
 }
+
+const elementPadding1 = '0px';
+const elementPadding2 = 0; //false /null
+
+!elementPadding1 // false
+!elementPadding2 // true
